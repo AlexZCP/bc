@@ -5,9 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bluecap Dashboard</title>
-  <script type="module" crossorigin src="/bc/assets/index.5d1cdaed.js"></script>
-  <link rel="modulepreload" href="/bc/assets/naive-ui.7c9de2ff.js">
-  <link rel="stylesheet" href="/bc/assets/index.272c2c64.css">
+
+  <script>
+    (function(){
+      const redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/bc/assets/index.a3e622bf.js"></script>
+  <link rel="modulepreload" href="/bc/assets/naive-ui.5fba27ba.js">
+  <link rel="stylesheet" href="/bc/assets/index.577228ee.css">
 </head>
 
 <body>
