@@ -1,0 +1,1 @@
+import{_ as o,a,e as r}from"./index.5d1cdaed.js";import{l as s,D as n}from"./naive-ui.7c9de2ff.js";var e={};const{authLoginDefaultUrl:c}=r,f=a();f.push(c);const t={};function i(p,u,d,_,l,m){return s(),n("div")}typeof e=="function"&&e(t);var $=o(t,[["render",i]]);export{$ as default};
