@@ -1,0 +1,1 @@
+import{_ as t}from"./index.c5f173c7.js";import{l as s,D as o,F as n,t as e}from"./naive-ui.871da52f.js";const a={},c=e("h1",null,"Posts",-1),r=e("p",null,"Not yet!",-1);function _(l,f){return s(),o(n,null,[c,r],64)}var m=t(a,[["render",_]]);export{m as default};
